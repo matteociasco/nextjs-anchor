@@ -1,0 +1,1 @@
+function e(e){return e&&"object"==typeof e&&"default"in e?e.default:e}var l=e(require("next/link")),r=e(require("react"));module.exports=function(e){return r.createElement(l,{href:e.href,as:e.as,locale:e.locale,passHref:e.passHref,prefetch:e.prefetch,replace:e.replace,scroll:e.scroll,shallow:e.shallow},r.createElement("a",{className:e.className,style:e.style},e.children))};

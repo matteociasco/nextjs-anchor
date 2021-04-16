@@ -1,7 +1,7 @@
 import Link, { LinkProps } from 'next/link'
 import React from 'react'
 
-type AnchorProps = LinkProps & {
+export type AnchorProps = LinkProps & {
   className?: string
   children: any
   style?: React.StyleHTMLAttributes<any>
