@@ -1,19 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Anchor = ({
-  className,
-  children,
-  style,
-  href,
-  as,
-  locale,
-  passHref,
-  prefetch,
-  replace,
-  scroll,
-  shallow
-}) => {
+var Anchor = function Anchor(_ref) {
+  var className = _ref.className,
+      children = _ref.children,
+      style = _ref.style,
+      href = _ref.href,
+      as = _ref.as,
+      locale = _ref.locale,
+      passHref = _ref.passHref,
+      prefetch = _ref.prefetch,
+      replace = _ref.replace,
+      scroll = _ref.scroll,
+      shallow = _ref.shallow;
   return React.createElement(Link, {
     href: href,
     as: as,
