@@ -1,6 +1,6 @@
 {
   "name": "nextjs-anchor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple library with a wrapper for the NextJs Link, TailwindCss compatible",
   "author": "matteociasco",
   "license": "MIT",
@@ -26,8 +26,8 @@
     "dev": "run-p start example:dev"
   },
   "peerDependencies": {
-    "next": "10.1.3",
-    "react": "^16.0.0"
+    "next": "12",
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
